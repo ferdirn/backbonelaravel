@@ -1,0 +1,26 @@
+{
+  "name": "backbonelaravel",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ferdirn/backbonelaravel",
+  "authors": [
+    "Ferdi Ramdhon <ferdirn@gmail.com>"
+  ],
+  "description": "Backbone and Laravel 4",
+  "main": "index.php",
+  "keywords": [
+    "Backbone",
+    "Laravel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.3"
+  }
+}
