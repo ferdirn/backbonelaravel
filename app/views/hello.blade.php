@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Backbone and Laravel</title>
-	<style>
+<!-- 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
 
 		body {
@@ -31,12 +31,16 @@
 			font-size: 32px;
 			margin: 16px 0 0 0;
 		}
-	</style>
+	</style> -->
 </head>
 <body>
-	<div class="welcome">
-		<h1>You have arrived</h1>
-	</div>
+
+	<form action="" id="addTaskForm">
+		<input type="text" id="newTaskTitle" placeholder="Input new task">
+		<input type="submit" value="Submit task">
+	</form>
+
+	<div class="tasks"></div>
 
 	{{ HTML::script('bower_components/underscore/underscore.js') }}
 	{{ HTML::script('bower_components/jquery/dist/jquery.js') }}
